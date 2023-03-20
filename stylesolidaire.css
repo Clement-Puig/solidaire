@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e7f5f6;
+    background-image: url("IMG/V7.png")
+    
+
+  }
+  
+  .banner h1 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    line-height: 200px;
+}
+
+  .banner {
+    background-image:url("IMG/V5.png");
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+  }
+  
+
+  
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .textbox {
+    background-color: #9bcefe;
+    color: #281e1e;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  .textbox2 {
+    background-color: #7bc0f4;
+    color: #515050;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  .textbox3 {
+    background-color: #221efe;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  a {
+    color: #fffefc; /* Changer la couleur du texte en orange */
+  }
+  .textbox h1, .textbox h2, .textbox h3 {
+    margin-bottom: 10px;
+  }
+  
+ 
